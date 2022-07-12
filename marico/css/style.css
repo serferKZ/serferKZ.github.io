@@ -1,5 +1,35 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap);
 @charset "UTF-8";
+@font-face {
+  font-family: icons;
+  font-display: swap;
+  src: url("../fonts/icons.woff2") format("woff2"), url("../fonts/icons.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+[class*=_icon-]:before {
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class*=_icon-]:before {
+  display: block;
+}
+
+._icon-arrow::before {
+  content: "\e900";
+}
+
+._icon-check:before {
+  content: "\e901";
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -118,6 +148,73 @@ h6 {
 
 [class*=-ibg_contain] img {
   object-fit: contain;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #707070;
+  border: 1px solid #707070;
+  border-radius: 10px;
+}
+.btn-blue {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  background: #326cf9;
+  border-radius: 10px;
+}
+
+.header {
+  margin: 46px 0px 0px 0px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__buttons > *:not(:last-child) {
+  margin: 0px 24px 0px 0px;
+}
+.header__button.btn {
+  border: none;
+  transition: all 0.5s;
+}
+.header__button.btn:hover {
+  color: #3c82f4;
+}
+.header__button.btn-blue {
+  padding: 12px 21px;
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+}
+.list-header__item:not(:last-child) {
+  margin: 0px 39px 0px 0px;
+}
+.list-header__link {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 152.380952381%;
+  color: #707070;
+  transition: all 0.5s;
+}
+.list-header__link:hover {
+  color: #3c82f4;
+}
+.list-header__link-arrow {
+  position: relative;
+}
+.list-header__link-arrow::before {
+  font-size: 7px;
+  position: absolute;
+  top: 50%;
+  padding: 0px 0px 0px 115px;
 }
 
 /*
