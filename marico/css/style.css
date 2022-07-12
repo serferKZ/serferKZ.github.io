@@ -291,6 +291,43 @@ h6 {
 	}
 }
 */
+.footer {
+  margin: 183px 0px 0px 0px;
+}
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__logo {
+  margin: 0px 10px 0px 0px;
+}
+.footer__logo-mail {
+  display: block;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 148.1481481481%;
+  color: #707070;
+}
+.footer__list {
+  display: flex;
+  align-items: center;
+}
+
+.list-footer__item:not(:last-child) {
+  margin: 0px 42px 0px 0px;
+}
+.list-footer__link {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 150%;
+  color: #707070;
+  transition: all 0.5s;
+}
+.list-footer__link:hover {
+  color: #326DF9;
+}
+
 body {
   background: #000;
 }
@@ -303,6 +340,9 @@ body {
 }
 .page__connect {
   margin: 162px 0px 0px 0px;
+}
+.page__share {
+  margin: 71px 0px 0px 0px;
 }
 
 .main-block__container {
@@ -458,6 +498,10 @@ body {
   top: 0;
   right: 0;
 }
+.body-connect__img-bg {
+  max-height: 640px;
+}
+
 .list-connect__item {
   font-weight: 400;
   font-size: 23px;
@@ -473,6 +517,64 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
+}
+
+.share__contain {
+  max-width: 1731px;
+  margin: 0 auto;
+}
+.share__subtitle {
+  max-width: 886px;
+  margin: 0 auto;
+}
+.share__body {
+  margin: 150px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+.share__column {
+  flex: 0 1 50%;
+  margin: 0 10px;
+}
+.share__item {
+  padding: 0 -10px;
+  background: #0D0D0D;
+  height: 680px;
+  position: relative;
+}
+.share__buttons {
+  margin: 49px 0px 0px 0px;
+  text-align: center;
+}
+.share__button {
+  width: 283px;
+  padding: 22px 0;
+}
+
+.item-share__pretitle {
+  padding: 33px 0px 0px 45px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+  color: #0FC65C;
+}
+.item-share__title {
+  margin: 15px 0px 0px 45px;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 150%;
+}
+.item-share__title span {
+  display: block;
+  color: #919191;
+}
+.item-share__title-box {
+  max-width: 415px;
+}
+.item-share__img-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .swiper {
   overflow: hidden;
