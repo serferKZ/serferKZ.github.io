@@ -269,6 +269,62 @@ h6 {
 body {
   background: #000;
 }
+
+.page__main-block {
+  margin: 128px 0px 0px 0px;
+}
+
+.main-block__container {
+  text-align: center;
+}
+.main-block__title {
+  font-weight: 700;
+  font-size: 112px;
+  line-height: 114.2857142857%;
+}
+.main-block__title span {
+  display: block;
+  background: linear-gradient(90deg, #fe6783 1.9%, #ffbf84 97.1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main-block__text {
+  max-width: 694px;
+  margin: 136px auto 0;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 150%;
+}
+.main-block__buttons {
+  margin: 50px 0px 0px 0px;
+}
+.main-block__buttons > *:not(:last-child) {
+  margin: 0px 26px 0px 0px;
+}
+.main-block__button {
+  font-weight: 500;
+  line-height: 150%;
+  width: 313px;
+}
+.main-block__button.btn-blue {
+  padding: 23px 0;
+}
+.main-block__button.btn {
+  padding: 23px 0;
+}
+.main-block__subtext {
+  margin: 21px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-block__subtext::before {
+  content: url("../img/main/main-block/Dot.svg");
+  margin: 0px 9px 0px 0px;
+}
+.main-block__subtext span {
+  color: #707070;
+}
 .swiper {
   overflow: hidden;
 }
