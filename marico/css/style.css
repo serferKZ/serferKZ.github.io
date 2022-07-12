@@ -158,6 +158,7 @@ h6 {
   color: #707070;
   border: 1px solid #707070;
   border-radius: 10px;
+  text-align: center;
 }
 .btn-blue {
   display: inline-block;
@@ -166,6 +167,7 @@ h6 {
   line-height: 150%;
   background: #326cf9;
   border-radius: 10px;
+  text-align: center;
 }
 
 .title {
@@ -176,10 +178,19 @@ h6 {
 }
 
 .pretitle {
+  text-align: center;
   font-weight: 600;
   font-size: 25px;
   line-height: 152%;
   color: #3D82F2;
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+  color: #707070;
 }
 
 .header {
@@ -290,6 +301,9 @@ body {
 .page__creators-love {
   margin: 188px 0px 0px 0px;
 }
+.page__connect {
+  margin: 162px 0px 0px 0px;
+}
 
 .main-block__container {
   text-align: center;
@@ -378,10 +392,87 @@ body {
   margin: 0px 8px 0px 0px;
 }
 .item-creators-love__text {
+  margin: 10px 0px 0px 0px;
   font-weight: 400;
   font-size: 22px;
   line-height: 150%;
   color: #707070;
+}
+
+.connect__contain {
+  max-width: 1934px;
+  margin: 0 auto;
+}
+.connect__subtitle {
+  max-width: 929px;
+  margin: -15px auto 0;
+}
+.connect__buttons {
+  margin: 34px 0px 0px 0px;
+  text-align: center;
+}
+.connect__button {
+  width: 313px;
+  padding: 23px 0;
+}
+.connect__box {
+  position: relative;
+}
+.connect__body {
+  max-width: 1400px;
+  margin: 100px auto 0;
+}
+
+.body-connect__pretitle {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+}
+.body-connect__title {
+  margin: 50px 0px 0px 0px;
+  max-width: 548px;
+  text-align: left;
+}
+.body-connect__title span {
+  color: #3C82F4;
+}
+.body-connect__list {
+  margin: 27px 0px 0px 0px;
+}
+.body-connect__list > *:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+.body-connect__buttons {
+  margin: 66px 0px 0px 0px;
+}
+.body-connect__buttons > *:not(:last-child) {
+  margin: 0px 24px 0px 0px;
+}
+.body-connect__button {
+  width: 207px;
+  padding: 17px 0;
+}
+.body-connect__img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+.list-connect__item {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 147.8260869565%;
+}
+.list-connect__item span {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  background: #2D2D2D;
+  border-radius: 50%;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
 }
 .swiper {
   overflow: hidden;
