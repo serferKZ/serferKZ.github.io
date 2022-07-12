@@ -338,6 +338,7 @@ body {
 .main-block__subtext::before {
   content: url("../img/main/main-block/Dot.svg");
   margin: 0px 9px 0px 0px;
+  max-height: 28px;
 }
 .main-block__subtext span {
   color: #707070;
