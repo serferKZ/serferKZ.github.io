@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktaipro"]=self["webpackChunktaipro"]||[]).push([[98],{1098:function(n,r,t){t.r(r),t.d(r,{default:function(){return i}});var e=t(3396);function o(n,r,t,o,u,a){return(0,e.wg)(),(0,e.iD)("div",null," ogogogo ")}var u={},a=t(89);const c=(0,a.Z)(u,[["render",o],["__scopeId","data-v-70999024"]]);var i=c}}]);
+//# sourceMappingURL=98.9598b469.js.map
