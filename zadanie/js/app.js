@@ -3179,6 +3179,17 @@
             }));
         }
     }), 0);
+    const iconMenu = document.querySelector(".icon-menu");
+    if (iconMenu) {
+        const navBurger = document.querySelector(".header__nav-burger");
+        const listBurger = document.querySelector(".header__list-burger");
+        iconMenu.addEventListener("click", (function(e) {
+            document.body.classList.toggle("_lock");
+            iconMenu.classList.toggle("_active");
+            navBurger.classList.toggle("_active");
+            listBurger.classList.toggle("_active");
+        }));
+    }
     const btnMoreComment = document.querySelector(".comments__more");
     const commentsItem = document.querySelectorAll(".comments__item").length;
     let items = 4;
