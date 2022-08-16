@@ -446,19 +446,19 @@ body._lock {
 }
 @media (max-width: 426px) {
   .story-me__img {
-    height: 350px;
+    max-height: 350px;
     max-width: 200px;
   }
 }
 @media (max-width: 376px) {
   .story-me__img {
-    height: 300px;
+    max-height: 280px;
     max-width: 200px;
   }
 }
 @media (max-width: 321px) {
   .story-me__img {
-    height: 250px;
+    max-height: 250px;
     max-width: 200px;
   }
 }
@@ -790,6 +790,11 @@ body._lock {
 @media (max-width: 426px) {
   .comments__img {
     max-height: 250px;
+  }
+}
+@media (max-width: 376px) {
+  .comments__img {
+    max-height: 200px;
   }
 }
 .comments__body {
